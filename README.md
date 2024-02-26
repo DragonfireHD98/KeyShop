@@ -4,7 +4,7 @@
 # CrateKeyShop
 A store plugin to sell keys on your server. Only for PocketMine-MP 5.0
 
-![keyshop-icon](https://pngtree.com/freepng/key_168869.html)
+![keyshop-icon](https://github.com/DragonfireHD98/KeyShop/blob/PM5/pngtree-gold-key-png-image_12156972.png)
 
 <a href="https://discord.gg/dJdaDDWeJx"><img src="https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
 
