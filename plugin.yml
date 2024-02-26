@@ -2,8 +2,8 @@ name: CrateKeyShop
 main: fernanACM\KeyShop\KeyShop
 version: 1.0.0
 api: 5.3.0
-author: fernanACM
-description: "A store plugin to sell keys on your server. Only for PocketMine-MP 5.0"
+author: NemesisFire2348
+description: "Ein Store-Plugin zum Verkauf von Schlüsseln auf Ihrem Server. Nur für PocketMine-MP 5.0"
 sofdepend: ["BedrockEconomy", "EconomyAPI"]
 
 commands:
