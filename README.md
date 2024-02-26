@@ -2,7 +2,7 @@
 
 [![](https://poggit.pmmp.io/shield.api/KeyShop)](https://poggit.pmmp.io/p/KeyShop)
 # CrateKeyShop
-A store plugin to sell keys on your server. Only for PocketMine-MP 5.0
+Ein Store-Plugin zum Verkauf von Schlüsseln auf Ihrem Server. Nur für PocketMine-MP 5.0
 
 ![keyshop-icon](https://github.com/DragonfireHD98/KeyShop/blob/PM5/8-IDxKzNWjOiH86mm.png)
 
