@@ -56,7 +56,7 @@ KeyShop:
 
 # Form => Keyshop
 Form:
-  title: "&l&fKEYSHOP"
+  title: "&l&fCrateKeySHOP"
   content: "&eSelect the key of your preference:"
 # Messages
 Messages:
