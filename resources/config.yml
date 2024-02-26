@@ -33,15 +33,30 @@ Key-command: key give "{PLAYER}" {KEY} {AMOUNT}
 #     image: "textures/items/cancel" // OPTIONAL - URL or PATH
 #     amount: 2 // Number of keys to receive
 KeyShop:
-  Common:
+  Eisen:
     price: 334
-    name: "&l&cCOMMON{LINE}&r&0x{AMOUNT} | cost: {PRICE}$"
-    image: "textures/items/diamond" # Ruta de la imagen (opcional)
+    name: "&l&cCOMMON{LINE}&r&0x{AMOUNT} | kostet: {PRICE}€"
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-ynkgz&psig=AOvVaw1qm2GlJ0j7nIvqVn4Oe7Mi&ust=1709039017441000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDzkc6IyYQDFQAAAAAdAAAAABAE" # Ruta de la imagen (opcional)
     amount: 1
-  Epic:
+  Gold:
     price: 323
-    name: "&l&5EPIC{LINE}&r&0x{AMOUNT} | cost: {PRICE}$"
-    image: "https://preview.redd.it/you-have-an-ugly-gray-creeper-instead-of-a-minecraft-icon-v0-y83ppc5i6r4b1.png?width=1024&format=png&auto=webp&s=12576cea991cd7c24bd277c1c43800e81ea0e73a" # Ruta de la imagen (opcional)
+    name: "&l&5EPIC{LINE}&r&0x{AMOUNT} | kostet: {PRICE}€"
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-fnamm&psig=AOvVaw2vj7EnS_vdBuL_hnzty_BI&ust=1709039085727000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIji4O6IyYQDFQAAAAAdAAAAABAF" # Ruta de la imagen (opcional)
+    amount: 1
+  Kupfer:
+    price: 323
+    name: "&l&5EPIC{LINE}&r&0x{AMOUNT} | kostet: {PRICE}€"
+    image: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fcreate_mod%2Fimages%2F0%2F00%2FCopper_Ingot.png%2Frevision%2Flatest%2Fthumbnail%2Fwidth%2F360%2Fheight%2F450%3Fcb%3D20220715092204&tbnid=iYNuG1fUrPYduM&vet=10CAgQxiAoAWoXChMIiK-UjYnJhAMVAAAAAB0AAAAAEAk..i&imgrefurl=https%3A%2F%2Fcreate.fandom.com%2Fwiki%2FCopper_Ingot&docid=Nuh5qKELvsRRjM&w=360&h=360&itg=1&q=kupfer%20minecraft.png&ved=0CAgQxiAoAWoXChMIiK-UjYnJhAMVAAAAAB0AAAAAEAk" # Ruta de la imagen (opcional)
+    amount: 1
+  Diamond:
+    price: 323
+    name: "&l&5EPIC{LINE}&r&0x{AMOUNT} | kostet: {PRICE}€"
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vhv.rs%2Fviewpic%2FTRxbJwh_minecraft-diamonds-png-gold-ingot-minecraft-transparent-png%2F&psig=AOvVaw2ihQBR7ipX7XpzKbxzlILQ&ust=1709039221062000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjPm6-JyYQDFQAAAAAdAAAAABAF" # Ruta de la imagen (opcional)
+    amount: 1
+  Netherite:
+    price: 323
+    name: "&l&5EPIC{LINE}&r&0x{AMOUNT} | Kostet: {PRICE}€"
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FNetherite_Ingot&psig=AOvVaw1MYUrB_OaJVC2TnBHlded1&ust=1709039296518000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjbk9OJyYQDFQAAAAAdAAAAABAF" # Ruta de la imagen (opcional)
     amount: 1
 
 # Form => Keyshop
