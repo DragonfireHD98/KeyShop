@@ -57,11 +57,11 @@ KeyShop:
 # Form => Keyshop
 Form:
   title: "&l&fCrateKeySHOP"
-  content: "&eSelect the key of your preference:"
+  content: "&6Wähle ein Schlüssel deiner Wahl:"
 # Messages
 Messages:
   error:
-    no-config: "&cApparently there are no keys available..."
-    no-money: "&cYou don't have enough money to make this purchase!"
+    no-config: "&cFehler bei denn Keys!!"
+    no-money: "&cDu hast leider kein geld du benötigst mindestens 350€ um einen kaufen zu können!"
   success:
-    successful-purchase: "&aYou have purchased &bx{AMOUNT} {KEY}&a keys for only &b{PRICE}$"
+    successful-purchase: "&7Du hast &e{AMOUNT}x {KEY} key/s &7gekauft für &e{PRICE}€"
