@@ -61,15 +61,15 @@ final class KeyManager{
                         KeyShop::getEconomy()->takeMoney($player, $price);
                         $server->dispatchCommand(new ConsoleCommandSender($server, $server->getLanguage()), $command);
                         $player->sendMessage(KeyShop::getPrefix(). KeyShop::getMessage($player, "Messages.success.successful-purchase", ["{KEY}" => $selectedKey, "{PRICE}" => $price, "{AMOUNT}" => $amount]));
-                        PluginUtils::PlaySound($player, "mob.villager.yes", 1, 1);
+                        PluginUtils::PlaySound($player, "random.levelup", 1, 1);
                         $this->shop($player);
                     }else{
                         $player->sendMessage(KeyShop::getPrefix(). KeyShop::getMessage($player, "Messages.error.no-money"));
-                        PluginUtils::PlaySound($player, "mob.villager.no", 1, 1);
+                        PluginUtils::PlaySound($player, "random.orb", 1, 1);
                     }
                 });
             }else{
-                PluginUtils::PlaySound($player, "mob.villager.no", 1, 1);
+                PluginUtils::PlaySound($player, "random.orb", 1, 1);
                 return;
             }
         });
