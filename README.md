@@ -21,13 +21,7 @@ A store plugin to sell keys on your server. Only for PocketMine-MP 5.0
 
 ### 💾 Config
 ```yaml
-#  _  __                 ____    _                     
-# | |/ /   ___   _   _  / ___|  | |__     ___    _ __  
-# | ' /   / _ \ | | | | \___ \  | '_ \   / _ \  | '_ \ 
-# | . \  |  __/ | |_| |  ___) | | | | | | (_) | | |_) |
-# |_|\_\  \___|  \__, | |____/  |_| |_|  \___/  | .__/ 
-#                |___/                          |_|    
-#         by fernanACM
+# CrateKeyShop
 # A store plugin to sell keys on your server. It accepts 
 # all types of keys from each plugin, which is why it is unique in its kind.
 
