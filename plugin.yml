@@ -10,7 +10,7 @@ commands:
   keyshop:
     permission: keyshop.acm
     description: "CrateKeyShop kauf dir Crate-Schlüssel"
-    aliases: ["ks", "keys"]
+    aliases: ["cks", "cratekeys"]
 
 permissions:
   keyshop.acm:
