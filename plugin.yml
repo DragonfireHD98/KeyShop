@@ -10,8 +10,8 @@ sofdepend: ["BedrockEconomy", "EconomyAPI"]
 commands:
   keyshop:
     permission: keyshop.acm
-    description: "Keyshop by fernanACM"
-    aliases: ["llaves", "ks", "keys"]
+    description: "CrateKeyShop kauf dir Crate-Schlüssel"
+    aliases: ["ks", "keys"]
 
 permissions:
   keyshop.acm:
