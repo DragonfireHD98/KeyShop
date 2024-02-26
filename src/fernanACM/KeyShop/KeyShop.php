@@ -1,13 +1,6 @@
 <?php
     
-#      _       ____   __  __ 
-#     / \     / ___| |  \/  |
-#    / _ \   | |     | |\/| |
-#   / ___ \  | |___  | |  | |
-#  /_/   \_\  \____| |_|  |_|
-# The creator of this plugin was fernanACM.
-# https://github.com/fernanACM
- 
+# CrateKeyShop 
 namespace fernanACM\KeyShop;
 
 use pocketmine\player\Player;
@@ -68,7 +61,7 @@ class KeyShop extends PluginBase{
         switch($command->getName()){
             case "keyshop":
                 if(!$sender instanceof Player){
-                    $sender->sendMessage("Use this command in-game");
+                    $sender->sendMessage("Dieser Command kann nur im Spiel ausgeführt werden!");
                     return false;
                 }
                 KeyManager::getInstance()->shop($sender);
@@ -93,8 +86,8 @@ class KeyShop extends PluginBase{
         if((!$this->config->exists("config-version")) || ($this->config->get("config-version") != self::CONFIG_VERSION)){
             rename($this->getDataFolder() . "config.yml", $this->getDataFolder() . "config_old.yml");
             $this->saveResource("config.yml");
-            $this->getLogger()->critical("Your configuration file is outdated.");
-            $this->getLogger()->notice("Your old configuration has been saved as config_old.yml and a new configuration file has been generated. Please update accordingly.");
+            $this->getLogger()->critical("config veraltet");
+            $this->getLogger()->notice("config veraltet neue Config installiert.");
         }
     }
 
